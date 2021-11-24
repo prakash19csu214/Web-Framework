@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table id="tb1" border="5">
+
+        <tr>
+            <th>Col-1 </th>
+            <th>Col-2</th>
+            <th>Col-3</th>
+            <th>Col-4</th>
+        </tr>
+        <tr>
+            <td> 1-a</td>
+            <td> 2-a</td>
+            <td> 3-a</td>
+            <td> 4-a</td>
+        </tr>
+        <tr>
+            <td> 1-b</td>
+            <td> 2-b</td>
+            <td> 3-b</td>
+            <td> 4-b</td>
+        </tr>
+
+
+    </table>
+
+
+    <button type="button" onclick="addRow()">Add</button>
+
+    <hr>
+    <hr>
+
+    <br><br>
+    <select id="list">
+        <option> Choose </option>
+        <option> One </option>
+        <option> Two </option>
+        <option> Three </option>
+    </select>
+
+    <br><br>
+    <button type="button" onclick="addList()">Add</button>
+
+    <script>
+            function addRow() {
+            var table = document.getElementById("tb1");
+            var row = table.insertRow(-1);
+            var col1 = row.insertCell(0);
+            var col2 = row.insertCell(1);
+            var col3 = row.insertCell(2);
+            var col4 = row.insertCell(3);
+
+            var enter_string1 = prompt("Enter the String ");
+            var enter_string2 = prompt("Enter the String ");
+            var enter_string3 = prompt("Enter the String ");
+            var enter_string4 = prompt("Enter the String ");
+            
+
+            col1.innerHTML = enter_string1;
+            col2.innerHTML = enter_string2;
+            col3.innerHTML = enter_string3;
+            col4.innerHTML = enter_string4;
+
+            
+        }
+
+
+        function addList() {
+
+            var enter_string1 = prompt("Enter the String ");
+            var list = document.getElementById("list");
+            var option = document.createElement("OPTION");
+            option.innerHTML = enter_string1;
+            list.options.add(option);
+        }
+
+    </script>
+</body>
+
+</html>

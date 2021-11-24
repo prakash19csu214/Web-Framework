@@ -1,0 +1,272 @@
+body{
+    background-color: lemonchiffon;
+}
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: blue;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 20%;
+  }
+
+.left
+{
+    float: left;
+    margin-top: 0px;
+    padding:10px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    }
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    text-align: center;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+/* table
+{
+    border: 1px dashed darkred;
+    } */
+td
+{
+    padding: 2px;
+    border: 1px solid darkblue;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+    .topnav {
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 12px;
+      text-decoration: lawngreen;
+      font-size: 20px;
+      /* background-color:chocolate; */
+      border: 5px solid black;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    
+    /* Right-aligned section inside the top navigation */
+    .topnav-right {
+      float: right;
+    }
+    .card {
+        /* Add shadows to create the "card" effect */
+        margin-left: auto;
+        margin-right: auto;
+        background-color: khaki;
+        width: auto;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        justify-content: center;
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add some padding inside the card container */
+      .container {
+        padding: 2px 16px;
+      }
+      .fa {  
+        padding: 20px;  
+      text-align: center;  
+        margin: 5px 2px;  
+        font-size: 30px;  
+        width: 50px;  
+      }  
+      .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      }  
+      .fa-twitter {  
+        background: #55ACEE;  
+        color: white;  
+      }  
+      .fa-pinterest {  
+        background: #cb2027;  
+        color: white;  
+      }  
+      .fa-linkedin {  
+        background: #007bb5;  
+        color: white;  
+      }  
+      .fa-instagram {  
+        background: #125688;  
+        color: white;  
+      }  
+      .fa-youtube {  
+        background: #bb0000;  
+        color: white;  
+      }  
+      .fa-google {  
+        background: #dd4b39;  
+        color: white;  
+      }  
+      .fa-snapchat-ghost {  
+        background: #fffc00;  
+        color: white;  
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+      }  
+      .fa-skype {  
+        background: #00aff0;  
+        color: white;  
+      }  
+      .stickyicon-list {   
+        position: fixed;   
+        top: 200px;   
+        transform: translateY(-50%);             
+        }         
+        .stickyicon-list a {   
+        display: block;   
+        text-align: center;   
+        padding: 8px;   
+        transition: all 0.5s ease;   
+        color: white;   
+        font-size: 20px;   
+        }         
+        /* HOver affect on sticky social media icons */   
+        .stickyicon-list a:hover {   
+        color: #000;   
+        width:10px;   
+        }   
+           
+        /* Now we have to design each icon of social media */         
+        .facebook {   
+        background: #3b5998;   
+        color: white;  
+        }         
+        .twitter {   
+        color: white;   
+        background: #00acee;   
+        }   
+        .linkedin {   
+        background: #0e76a8;   
+        color: white;   
+        }         
+        .google {   
+        color: white;   
+        background: #db4a39;   
+        }   
+        .instagram {   
+        background: #3f729b;   
+        color: white;   
+        }         
+        .youtube {   
+        color: white;   
+        background: #c4302b;    
+        }
+        h1{
+            text-align: center;
+            
+        }
+        footer{
+            background-color: khaki;
+            align-content: center;
+            
+
+        }
+        .foot{
+            margin-left: auto;
+            margin-right: auto;
+
+        }

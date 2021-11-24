@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table id="tab">
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>
+              <textarea name="name" placeholder="Name" id="name" style="resize: none; width: 100%;"></textarea>
+            </td>
+            <td>
+              <textarea name="age" placeholder="Age" id="age" style="resize: none; width: 100%;"></textarea>
+            </td>
+          </tr>
+        </table>
+        <div>
+          <input type="button" id="more_fields" onclick="add_fields();" value="Add More" />
+        </div>
+        <script>
+             function add_fields() {
+            document.getElementById('tab').innerHTML += '<tr> <td> <textarea name = "name" placeholder = "Name" id = "name" style = "resize: none; width: 100%;" ></textarea></td> <td> <textarea name = "age" placeholder = "Age" id = "age" style = "resize: none; width: 100%;"></textarea></td> </tr>';
+          }
+        </script>
+       
+</body>
+</html>

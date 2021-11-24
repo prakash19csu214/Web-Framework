@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="/Web Framework/JAVASCRIPT/F1.JS"></script> -->
+    <!-- inside script tag -->
+    <!-- <script>document.write("Hello World")</script> -->
+    <!-- linking with javascript file -->
+    
+</head>
+<body>
+    <script>
+    // var sum = function(){
+    //     const a= parseInt(prompt("enter no"));
+    //     const b= parseInt(prompt("enter no"));
+    //     c = a+b;
+    //     return c;
+    // }
+    //     document.write(sum());
+
+        // var sum =(x,y)=>{
+        //     c=x+y;
+        //     return c;
+        // }
+        // document.write(sum(10,50));
+//closure function
+        function add1(x){
+            return function add2(y){
+            return x+y;
+            }
+        }
+        var call1=add1(5);
+        document.write(call1(3));
+       </script>
+       
+</body>
+</html>

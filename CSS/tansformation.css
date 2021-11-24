@@ -1,0 +1,12 @@
+img{
+    border: 2px solid blue;
+    transition-duration: 3s;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+img:hover{
+    transform: translate(200px,200px);
+    transform: rotate(360deg);
+    transform: scale(1.5,1.5);
+}

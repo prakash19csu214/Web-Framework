@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML with CSS</title>
+    <style>
+        /* internal css */
+        h1{
+            background-color: blueviolet;
+            border: 20px deeppink dashed;
+        }
+        /* Here internal css wil not work as inline css is already defined and it has the highest priority as compae to internal and external */
+        p{
+            background-color: brown; 
+            border-width: 20px;
+            border: 20px lawngreen solid ;
+        }
+        body{
+            color: blue;
+            text-align: center;
+            background-color: cornsilk;
+            background-size: 100% 100%;
+            background-image: url(12.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+
+        }
+        div{
+            height: 200px;
+            border: 10px;
+            margin: 20px 10px;
+            background-image: url(../Images/140812125031_Screenshot_75.png.jpg);
+        }
+        #div1{
+            background-image: url(12.jpg);
+            background-size: inherit;
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/external1.css">
+</head>
+<body>
+    <p style="background-color: blue;">Hello, my name is Prakash Singh</p>
+    <div>
+
+    </div>
+    <div id="div1"></div>
+    <h1>
+        Internal CSS H1
+    </h1>
+    <!-- external css -->
+    <h2>
+        Heading 2 with external css
+    </h2>
+</body>
+</html

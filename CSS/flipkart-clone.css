@@ -1,0 +1,58 @@
+body{
+	background-color: lightgray;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0074D9;
+  }
+  
+  li {
+	float: right;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: black;
+  }
+		
+	/* styling search bar */
+	.search input[type=text]{
+		border-radius:25px;
+		border: none;
+	}
+		
+	.search{
+		float:left;
+        margin-left: 100px;
+		margin-top: 20px;
+        margin-bottom: 20px;
+	}
+		
+    .logo{
+        margin-left: 100px;
+        margin-top: 0px;
+        padding-top: 50px;
+    } 
+	.utem div{
+		background-color: blanchedalmond;
+	}
+	#item-1{
+		margin: 10px
+	}
+	#item-2 #item-3 #item-4{
+		margin: 10px
+	}
+	.container{
+		flex-wrap: nowrap;
+	}
